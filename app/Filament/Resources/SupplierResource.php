@@ -25,7 +25,7 @@ class SupplierResource extends Resource
     protected static ?string $navigationGroup = 'Parties';
     protected static ?int $navigationSort = 2;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-users';
 
     public static function form(Form $form): Form
     {
